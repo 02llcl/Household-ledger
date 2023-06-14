@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cuit:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cuit</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cuit.war">
+      <element id="artifact" artifact-name="cuit:war exploded" />
+    </root>
+  </artifact>
+</component>
